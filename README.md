@@ -32,13 +32,13 @@ pip install Pillow reportlab
 ## 🚀 使用方式
 
 将身份证或银行卡图像放入与脚本相同的目录，运行如下命令：
-
+```
 # 生成身份证双面 PDF
 python idcard_dual_side.py
 
 # 生成银行卡 PDF
 python bankcard_single_center.py
-
+```
 输出的 PDF 文件默认保存在脚本目录下。
 
 ---
