@@ -26,7 +26,7 @@
 
 ```bash
 pip install Pillow reportlab
-
+```
 ---
 
 ## 🚀 使用方式
