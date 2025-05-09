@@ -26,3 +26,30 @@
 
 ```bash
 pip install Pillow reportlab
+
+---
+
+## 🚀 使用方式
+
+将身份证或银行卡图像放入与脚本相同的目录，运行如下命令：
+
+# 生成身份证双面 PDF
+python idcard_dual_side.py
+
+# 生成银行卡 PDF
+python bankcard_single_center.py
+
+输出的 PDF 文件默认保存在脚本目录下。
+
+---
+
+## 📌 注意事项
+
+输出尺寸精确为卡片实际大小（标准：85.6mm × 54mm）
+打印时请设置为「实际大小」（100% 缩放）避免图像被放大或缩小
+
+---
+
+## 🧑‍💻 作者
+
+本项目由 Python 编写，欢迎改进建议和 PR！
